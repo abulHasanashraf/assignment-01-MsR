@@ -23,7 +23,7 @@
     />
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- Navbar section -->
     <header>
       <div class="navbar bg-white/90 backdrop:blur-md fixed top-0 z-50 shadow-sm px-8 lg:px-20">
         <!-- logo -->
@@ -45,5 +45,18 @@
         </div>
       </div>
     </header>
+    <!-- Banner Section -->
+     <section>
+        <div class="relative bg-[url(./assets/banner-image.png)] h-screen bg-cover">
+            <!-- Overlay -->
+             <div class="absolute inset-0 bg-gradient-to-r from-black/80 to-blue-500/40"></div>
+            <!-- Banner Content -->
+             <div class="relative z-10 flex flex-col items-start justify-center h-full text-white px-6 w-4/5 mx-auto">
+                <h3 class="text-4xl md:text-6xl font-bold mb-4">Best Collection For You</h3>
+                <p class="max-w-2xl text-lg md:text-xl mb-6">Discover premium quality products carefully selected just for you. Upgrade your style with our exclusive collection</p>
+                <button class="px-4 py-2 bg-indigo-500 hover:bg-indigo-600 transition duration-300 rounded-xl text-center text-lg font-semibold shadow-lg">Shop Now</button>
+             </div>
+        </div>
+     </section>
   </body>
 </html>
